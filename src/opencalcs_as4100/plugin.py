@@ -54,11 +54,11 @@ class SectionAnalysis:
 @dataclass(frozen=True)
 class AS4100Plugin:
     id: str = "structural.as4100"
-    name: str = "OpenCalcs Steel Sections"
+    name: str = "EngCalcs Steel Sections"
     version: str = __version__
     revision: str | None = None
     license: str = "AGPL-3.0-only"
-    source: str = "https://github.com/Elandu/OpenCalcs-AS4100"
+    source: str = "https://github.com/Elandu/EngCalcs-AS4100"
     calculations: tuple[SectionAnalysis, ...] = field(default_factory=lambda: (SectionAnalysis(),))
 
     def descriptor(self) -> dict[str, Any]:

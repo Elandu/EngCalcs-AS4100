@@ -1,6 +1,6 @@
-# OpenCalcs AS 4100
+# EngCalcs AS 4100
 
-An installed OpenCalcs plugin for bounded AS 4100:2020 axial **section** checks.
+An installed EngCalcs plugin for bounded AS 4100:2020 axial **section** checks.
 The first release implements clause 7.2 tension (gross yielding and net fracture)
 and clause 6.2.1 compression section capacity, using capacity factor 0.9.
 
@@ -32,3 +32,7 @@ and selection of factors are outside this release. Compression section capacity
 alone is insufficient for a compression member design.
 
 See [provenance](docs/provenance.md) for sources and verification limits.
+
+## Source licensing
+
+This EngCalcs module release is licensed under AGPL-3.0-only. See `LICENSE`. The `opencalcs.plugins` plugin identifier and Python import paths are retained for backwards compatibility. The third-party steel-as MIT notice remains in `docs/steel-as-LICENSE.txt`.
